@@ -1,0 +1,17 @@
+* {
+    font-family: 'Courier New', Courier, monospace;
+}
+.list {
+    margin: 50px 0;
+    list-style: none;
+    padding-left: -30px;
+}
+.search {
+    padding-bottom: 20px;
+}
+.filtered {
+    display: none;
+}
+form#add {
+    padding-top: 50px;
+}
