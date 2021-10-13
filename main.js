@@ -14,7 +14,7 @@ const addMovie = (movie, id) => {
             <div>Title: ${movie.title}</div>
             <div>Director: ${movie.director}</div>
             <div>Summary: ${movie.summary}</div>
-            <div>Created on: ${time}</div>
+            <div>Created on: ${time.getDate() + "/" + time.getMonth() + "/" + time.getFullYear()}</div>
             <br></br>
             <input id="important" type="checkbox" class="btn-check" id="check_${id}" active="${movie.important}" data-id="${id}" data-click="important">
                 <label class="btn btn-sm btn-outline-warning" for="check_${id}">
